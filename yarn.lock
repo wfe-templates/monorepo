@@ -1331,6 +1331,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"project@workspace:packages/project":
+  version: 0.0.0-use.local
+  resolution: "project@workspace:packages/project"
+  languageName: unknown
+  linkType: soft
+
 "punycode@npm:^2.1.0":
   version: 2.1.1
   resolution: "punycode@npm:2.1.1"

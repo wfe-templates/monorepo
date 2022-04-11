@@ -19,11 +19,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       {\
         "name": "yarn-monorepo",\
         "reference": "workspace:."\
+      },\
+      {\
+        "name": "project",\
+        "reference": "workspace:packages/project"\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
+      ["project", ["workspace:packages/project"]],\
       ["yarn-monorepo", ["workspace:."]]\
     ],\
     "fallbackPool": [\
@@ -1577,6 +1582,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pidtree", "npm:0.5.0"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["project", [\
+        ["workspace:packages/project", {\
+          "packageLocation": "./packages/project/",\
+          "packageDependencies": [\
+            ["project", "workspace:packages/project"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["punycode", [\
