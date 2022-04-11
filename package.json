@@ -5,7 +5,8 @@
     "main": "index.js",
     "author": "busyhe <busyhe@qq.com>",
     "scripts": {
-        "postinstall": "husky index"
+        "postinstall": "husky index",
+        "release": "HUSKY=0 release-it"
     },
     "license": "MIT",
     "keywords": [
@@ -21,7 +22,8 @@
         "commitizen": "^4.2.4",
         "cz-conventional-changelog": "^3.3.0",
         "husky": "^7.0.4",
-        "lint-staged": "^12.3.7"
+        "lint-staged": "^12.3.7",
+        "release-it": "^14.14.2"
     },
     "bugs": {
         "url": "https://github.com/wfe-templates/yarn-monorepo/issues"
