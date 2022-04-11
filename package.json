@@ -1,0 +1,23 @@
+{
+    "name": "yarn-monorepo",
+    "version": "0.0.1",
+    "description": "Base yarn Worksapce Monorepo Project Template",
+    "main": "index.js",
+    "author": "busyhe <busyhe@qq.com>",
+    "license": "MIT",
+    "workspaces": [
+        "packages/*"
+    ],
+    "packageManager": "yarn@3.2.0",
+    "devDependencies": {
+        "commitizen": "^4.2.4",
+        "cz-conventional-changelog": "^3.3.0",
+        "husky": "^7.0.4",
+        "lint-staged": "^12.3.7"
+    },
+    "config": {
+        "commitizen": {
+            "path": "cz-conventional-changelog"
+        }
+    }
+}
