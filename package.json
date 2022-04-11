@@ -5,7 +5,7 @@
     "main": "index.js",
     "author": "busyhe <busyhe@qq.com>",
     "scripts": {
-        "postinstall": "husky index",
+        "postinstall": "husky install",
         "release": "HUSKY=0 release-it"
     },
     "license": "MIT",
