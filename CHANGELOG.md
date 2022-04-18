@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/wfe-templates/yarn-monorepo/compare/v1.0.0...v1.1.0) (2022-04-18)
+
+
+### Features
+
+* init lint-staged config ([81ce398](https://github.com/wfe-templates/yarn-monorepo/commit/81ce398e512533db380b89df7a49605988c9b1b4))
+
 # 1.0.0 (2022-04-13)
 
 

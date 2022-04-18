@@ -1,6 +1,6 @@
 {
     "name": "yarn-monorepo",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Base Yarn Workspace Monorepo Project Template",
     "main": "index.js",
     "author": "busyhe <busyhe@qq.com>",
