@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/wfe-templates/yarn-monorepo/compare/v1.1.0...v1.1.1) (2022-05-24)
+
+
+### Bug Fixes
+
+* husky hook in npm package installed ([88d2b0e](https://github.com/wfe-templates/yarn-monorepo/commit/88d2b0e0453b0728730eb840bd71f70ae138b75b))
+
 # [1.1.0](https://github.com/wfe-templates/yarn-monorepo/compare/v1.0.0...v1.1.0) (2022-04-18)
 
 
