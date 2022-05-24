@@ -1,41 +1,44 @@
 {
-    "name": "yarn-monorepo",
+    "name": "{{ name }}",
+    "description": "{{ description }}",
+    "author": "{{ author }}",
     "version": "0.0.1",
-    "description": "Base Yarn Workspace Monorepo Project Template",
     "main": "index.js",
     "scripts": {
         "postinstall": "husky install",
         "prepack": "pinst --disable",
         "postpack": "pinst --enable"
     },
-    "author": "busyhe <busyhe@qq.com>",
     "license": "MIT",
-    "private": false,
-    "keywords": [
-        "yarn2",
-        "monorepo",
-        "template"
+    "keywords": [],
+    "workspaces": [
+        "packages/*"
     ],
+    "packageManager": "yarn@3.2.1",
     "devDependencies": {
         "@semantic-release/changelog": "^6.0.1",
         "@semantic-release/git": "^10.0.1",
         "commitizen": "^4.2.4",
         "cz-conventional-changelog": "^3.3.0",
         "husky": "^8.0.1",
+        "lint-staged": "^12.4.1",
         "pinst": "^3.0.0",
         "semantic-release": "^19.0.2"
     },
     "bugs": {
-        "url": "https://github.com/wfe-templates/yarn-monorepo/issues"
+        "url": ""
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/wfe-templates/yarn-monorepo.git"
+        "url": ""
     },
     "config": {
         "commitizen": {
             "path": "cz-conventional-changelog"
         }
+    },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
     },
     "engines": {
         "node": ">=16.0.0"
