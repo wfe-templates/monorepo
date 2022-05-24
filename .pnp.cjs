@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["husky", "npm:8.0.1"],\
             ["lint-staged", "npm:12.4.1"],\
+            ["pinst", "npm:3.0.0"],\
             ["semantic-release", "npm:19.0.2"]\
           ],\
           "linkType": "SOFT"\
@@ -4678,6 +4679,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["pinst", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/pinst-npm-3.0.0-5d2b6c1dda-4ae48a6a60.zip/node_modules/pinst/",\
+          "packageDependencies": [\
+            ["pinst", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["pkg-conf", [\
         ["npm:2.1.0", {\
           "packageLocation": "./.yarn/cache/pkg-conf-npm-2.1.0-c6489a73d3-b507751572.zip/node_modules/pkg-conf/",\
@@ -6261,6 +6271,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cz-conventional-changelog", "npm:3.3.0"],\
             ["husky", "npm:8.0.1"],\
             ["lint-staged", "npm:12.4.1"],\
+            ["pinst", "npm:3.0.0"],\
             ["semantic-release", "npm:19.0.2"]\
           ],\
           "linkType": "SOFT"\
