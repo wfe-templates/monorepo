@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/wfe-templates/yarn-monorepo/compare/v1.2.0...v1.2.1) (2022-06-22)
+
+
+### Bug Fixes
+
+* variable substitution ([f7ae432](https://github.com/wfe-templates/yarn-monorepo/commit/f7ae432ba362f0eb6bdebe3cde2fe826175c6ed0))
+
 # [1.2.0](https://github.com/wfe-templates/yarn-monorepo/compare/v1.1.1...v1.2.0) (2022-05-24)
 
 
