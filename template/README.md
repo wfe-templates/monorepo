@@ -1,7 +1,9 @@
-# Yarn Monorepo
+# {{ name }}
+
+{{ description }}
 
 ## Documentation
 
 ## License
 
-[MIT]()
+[MIT](https://opensource.org/licenses/MIT)
